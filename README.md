@@ -80,12 +80,23 @@ prefixing.
 
 ## Installation
 
-```bash
-cd iotscan
+\```bash
+git clone https://github.com/mafenX/Sohryu.git
+cd Sohryu
+
+# Recommended: use a virtual environment (avoids "externally-managed-environment"
+# errors on newer Debian/Ubuntu/Kali systems where pip refuses system-wide installs)
+python3 -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+
 pip install -r requirements.txt
-pip install -e .          # installs the `iotscan` command
+pip install -e .                # installs the `iotscan` command
 # or just: python -m iotscan ...
-```
+\```
+
+Each time you come back in a new terminal, reactivate the virtual environment
+first with `source venv/bin/activate` (or `venv\Scripts\activate` on Windows)
+before running `iotscan`.
 
 ## Usage
 
