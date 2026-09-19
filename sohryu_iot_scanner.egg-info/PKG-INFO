@@ -1,6 +1,0 @@
-Metadata-Version: 2.1
-Name: sohryu-iot-scanner
-Version: 1.0.0
-Summary: Sohryu IoT Device Scanner -- local-network IoT discovery, fingerprinting and credential testing
-Requires-Python: >=3.9
-Provides-Extra: mdns
