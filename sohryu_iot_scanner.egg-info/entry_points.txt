@@ -1,0 +1,2 @@
+[console_scripts]
+iotscan = iotscan.cli:main
