@@ -2,7 +2,7 @@
 
 A terminal-based **IoT device discovery & inventory tool** for your local network.
 
-Unlike `nmap`, which just tells you what ports are open, `iotscan` tries to
+Unlike `nmap`, which just tells you what ports are open, `Sohryu` tries to
 answer *"what kind of smart device is this, and is it still using a factory
 default password?"* for the consumer IoT devices on your LAN: security
 cameras & video doorbells, smart locks, robot vacuums, smart plugs, security
