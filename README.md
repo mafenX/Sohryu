@@ -80,7 +80,7 @@ prefixing.
 
 ## Installation
 
-\```bash
+```bash
 git clone https://github.com/mafenX/Sohryu.git
 cd Sohryu
 
@@ -92,11 +92,13 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 pip install -e .                # installs the `iotscan` command
 # or just: python -m iotscan ...
-\```
+```
 
 Each time you come back in a new terminal, reactivate the virtual environment
 first with `source venv/bin/activate` (or `venv\Scripts\activate` on Windows)
 before running `iotscan`.
+
+
 
 ## Usage
 
